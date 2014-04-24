@@ -20,7 +20,6 @@ namespace SystemPharmacy
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "myDBDataSet.Postavchik". При необходимости она может быть перемещена или удалена.
             this.postavchikTableAdapter.Fill(this.myDBDataSet.Postavchik);
-            int programma = 0;
         }
 
         private void BTN_del_Click(object sender, EventArgs e)
